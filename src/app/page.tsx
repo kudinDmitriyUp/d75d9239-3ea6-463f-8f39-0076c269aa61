@@ -474,7 +474,7 @@ export default function Home() {
           title="Stay in the Game"
           description="Subscribe to our newsletter for the latest basketball news, analysis, and exclusive content delivered straight to your inbox."
           inputPlaceholder="Enter your email"
-          buttonText="Subscribe"
+          buttonText="Get Free Updates"
           termsText="By subscribing, you agree to receive basketball updates and can unsubscribe at any time."
         />
       </div>
