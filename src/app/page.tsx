@@ -49,7 +49,7 @@ export default function Home() {
           description="Stay updated with the latest scores, trades, highlights, and breaking news from the basketball world. From NBA to college hoops, we cover it all."
           tag="Breaking News"
           tagIcon={Zap}
-          imageSrc="https://pixabay.com/get/g4d04bc5dee5778b7ff46c71ddd45055c29b4ab15b97c019f912a8fb44f75542609b00571ab878716c722a771840b163c4c15ffb3c9cb3905f79482b1637e8907_1280.jpg"
+          imageSrc="https://pixabay.com/get/g80d8356f2600714511485c2f76452edb520387071d1641cc5f21aabfe933d4e7e05100f05bae1f09bdd1269cb9f174c99befc44ab92c12df468d39d616be4066_1280.jpg"
           imageAlt="Basketball court with players in action"
           buttons={[
             {
