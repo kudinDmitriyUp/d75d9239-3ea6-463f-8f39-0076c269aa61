@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -79,6 +79,7 @@ export default function Home() {
           tagIcon={Star}
           textboxLayout="default"
           animationType="slide-up"
+          gridVariant="uniform-all-items-equal"
           features={[
             {
               id: "01",
@@ -127,7 +128,7 @@ export default function Home() {
               price: "March 2024",
               imageSrc: "https://pixabay.com/get/g8a23753dcaae7df7975632b191d1fd7c4cc45ac82f2ee28afc5fe45769fe70427d4471da39c0983720f4f095521eff4bbfa35b96e2558357a5250ee32d7f6fa1_1280.jpg",
               imageAlt: "NCAA March Madness tournament",
-              onProductClick: "() => console.log('March Madness clicked')"
+              onProductClick: () => console.log('March Madness clicked')
             },
             {
               id: "event-2",
@@ -135,7 +136,7 @@ export default function Home() {
               price: "July 2024",
               imageSrc: "https://pixabay.com/get/g7855a296a8ede9c361db8a4df7a50709f0a684cbe3b7c82d4005764eaabe65b8ec1a06ffb8393eb356856ddf992fc226c76df159f0636e14c387a5da9f54ef1e_1280.jpg",
               imageAlt: "Summer basketball training camp",
-              onProductClick: "() => console.log('Summer Camp clicked')"
+              onProductClick: () => console.log('Summer Camp clicked')
             },
             {
               id: "event-3",
@@ -143,7 +144,7 @@ export default function Home() {
               price: "August 2024",
               imageSrc: "https://pixabay.com/get/g099c96dc178abfad8ffb1ef4eee142e85645af5375fcd695e96cde3dc05a09be98d28e77a2ee01e201f03d7b0db5a31245f31a1cd008358842204ee346ce3403_1280.jpg",
               imageAlt: "Youth basketball championship",
-              onProductClick: "() => console.log('Youth Championship clicked')"
+              onProductClick: () => console.log('Youth Championship clicked')
             }
           ]}
           buttons={[
@@ -167,7 +168,7 @@ export default function Home() {
             {
               id: "free",
               badge: "Free Access",
-              badgeIcon: {Users},
+              badgeIcon: Users,
               price: "Free",
               subtitle: "Perfect for casual fans",
               features: [
@@ -190,7 +191,7 @@ export default function Home() {
             {
               id: "premium",
               badge: "Premium",
-              badgeIcon: {Star},
+              badgeIcon: Star,
               price: "$9.99/month",
               subtitle: "For serious basketball fans",
               features: [
