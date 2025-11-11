@@ -105,7 +105,7 @@ export default function Home() {
           ]}
           buttons={[
             {
-              text: "Read More",
+              text: "Start Reading Free",
               href: "blog"
             }
           ]}
